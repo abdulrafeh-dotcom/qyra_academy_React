@@ -1,0 +1,121 @@
+/* Admin Login Page Styles */
+.admin-login-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #4169E1 0%, #2E4BC7 100%);
+  padding: 20px;
+}
+
+.admin-login-card {
+  background: white;
+  border-radius: 16px;
+  padding: 3rem;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+.admin-login-card h2 {
+  color: #4169E1;
+  margin-bottom: 0.5rem;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.admin-login-card p {
+  color: #7F8C8D;
+  margin-bottom: 2rem;
+  font-size: 1rem;
+}
+
+.admin-login-form {
+  text-align: left;
+}
+
+.admin-login-form .form-group {
+  margin-bottom: 1.5rem;
+}
+
+.admin-login-form label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #2C3E50;
+  font-weight: 500;
+}
+
+.admin-login-form input {
+  width: 100%;
+  padding: 14px 16px;
+  border: 2px solid #E9ECEF;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  background: #F8F9FA;
+}
+
+.admin-login-form input:focus {
+  outline: none;
+  border-color: #4169E1;
+  background: white;
+  box-shadow: 0 0 0 3px rgba(65, 105, 225, 0.1);
+}
+
+.login-btn {
+  width: 100%;
+  padding: 14px 24px;
+  background: #4169E1;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 1rem;
+}
+
+.login-btn:hover:not(:disabled) {
+  background: #2E4BC7;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(65, 105, 225, 0.3);
+}
+
+.login-btn:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.error-message {
+  background: #FEE;
+  color: #C33;
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+  border: 1px solid #FCC;
+  font-size: 0.9rem;
+}
+
+.login-info {
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #E9ECEF;
+}
+
+.login-info small {
+  color: #7F8C8D;
+  font-size: 0.85rem;
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+  .admin-login-card {
+    padding: 2rem;
+  }
+  
+  .admin-login-card h2 {
+    font-size: 1.5rem;
+  }
+}

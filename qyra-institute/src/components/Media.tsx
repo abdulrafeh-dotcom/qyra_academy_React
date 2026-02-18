@@ -207,7 +207,7 @@ const Media: React.FC = () => {
             Stay Updated
           </h3>
           <p style={{ color: 'var(--secondary-color)', marginBottom: '2rem', opacity: 0.9 }}>
-            Subscribe to our newsletter for the latest courses, updates, and educational content
+            Subscribe to our newsletter for the latest updates, and educational content
           </p>
           <form className="newsletter-form" style={{ 
             display: 'flex', 

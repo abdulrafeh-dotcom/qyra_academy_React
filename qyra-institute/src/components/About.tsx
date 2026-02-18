@@ -30,7 +30,7 @@ const About: React.FC = () => {
             }}>
               Qyra Institute is an online learning platform dedicated to quality Quran education 
               alongside essential modern skills. We combine authentic Islamic teachings with academic 
-              and professional courses to prepare learners for both Dunya and Akhirah.
+              and professional development to prepare learners for both Dunya and Akhirah.
             </p>
           </div>
 
@@ -148,7 +148,7 @@ const About: React.FC = () => {
                       minWidth: '40px'
                     }}>✓</div>
                     <h4 style={{ color: 'var(--primary-color)', margin: 0 }}>
-                      Academic and skill-based courses under one platform
+                      Academic and skill-based programs under one platform
                     </h4>
                   </div>
                 </div>

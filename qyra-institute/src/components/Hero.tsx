@@ -140,7 +140,7 @@ const Hero: React.FC = () => {
                       <option value="">Select Course Interest</option>
                       <option value="quran">Quran & Islamic Education</option>
                       <option value="academic">Academic Subjects</option>
-                      <option value="professional">Professional Courses</option>
+                      <option value="professional">Professional Skills</option>
                     </select>
                   </motion.div>
                 </motion.div>
@@ -158,83 +158,6 @@ const Hero: React.FC = () => {
               </motion.form>
             </motion.div>
           </motion.div>
-
-          <div className="hero-images">
-            <motion.div 
-              className="hero-image-left"
-              initial={{ opacity: 0, x: -50 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.8, delay: 0.6 }}
-            >
-              <motion.div 
-                className="image-placeholder"
-                whileHover={{ 
-                  y: -15,
-                  rotateY: 5,
-                  transition: { duration: 0.3 }
-                }}
-                style={{ perspective: '1000px' }}
-              >
-                <div style={{
-                  background: 'linear-gradient(135deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.2) 100%)',
-                  borderRadius: '12px',
-                  padding: '2rem',
-                  textAlign: 'center',
-                  backdropFilter: 'blur(10px)',
-                  transformStyle: 'preserve-3d'
-                }}>
-                  <motion.div 
-                    style={{ fontSize: '3rem', marginBottom: '1rem' }}
-                    variants={floatingVariants}
-                    animate="animate"
-                  >
-                    📖
-                  </motion.div>
-                  <h4 style={{ color: 'var(--secondary-color)' }}>Quran Learning</h4>
-                  <p style={{ color: 'var(--secondary-color)', opacity: 0.9 }}>
-                    One-to-one sessions with expert instructors
-                  </p>
-                </div>
-              </motion.div>
-            </motion.div>
-            <motion.div 
-              className="hero-image-right"
-              initial={{ opacity: 0, x: 50 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.8, delay: 0.8 }}
-            >
-              <motion.div 
-                className="image-placeholder"
-                whileHover={{ 
-                  y: -15,
-                  rotateY: -5,
-                  transition: { duration: 0.3 }
-                }}
-                style={{ perspective: '1000px' }}
-              >
-                <div style={{
-                  background: 'linear-gradient(135deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.2) 100%)',
-                  borderRadius: '12px',
-                  padding: '2rem',
-                  textAlign: 'center',
-                  backdropFilter: 'blur(10px)',
-                  transformStyle: 'preserve-3d'
-                }}>
-                  <motion.div 
-                    style={{ fontSize: '3rem', marginBottom: '1rem' }}
-                    variants={floatingVariants}
-                    animate="animate"
-                  >
-                    💻
-                  </motion.div>
-                  <h4 style={{ color: 'var(--secondary-color)' }}>Professional Skills</h4>
-                  <p style={{ color: 'var(--secondary-color)', opacity: 0.9 }}>
-                    Digital Marketing, Design & Video Editing
-                  </p>
-                </div>
-              </motion.div>
-            </motion.div>
-          </div>
         </div>
       </div>
     </section>

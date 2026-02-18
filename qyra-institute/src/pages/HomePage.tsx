@@ -127,7 +127,7 @@ const HomePage: React.FC = () => {
             {[
               { number: '1000+', label: 'Students Enrolled' },
               { number: '50+', label: 'Expert Instructors' },
-              { number: '15+', label: 'Courses Available' },
+              { number: '15+', label: 'Programs Available' },
               { number: '98%', label: 'Satisfaction Rate' }
             ].map((stat, index) => (
               <motion.div

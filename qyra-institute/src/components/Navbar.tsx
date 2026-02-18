@@ -22,7 +22,6 @@ const Navbar: React.FC<NavbarProps> = ({ currentPage = 'home' }) => {
   const navLinks = [
     { name: 'Home', path: '/' },
     { name: 'About', path: '/about' },
-    { name: 'Courses', path: '/courses' },
     { name: 'Media', path: '/media' }
   ];
 
@@ -31,9 +30,25 @@ const Navbar: React.FC<NavbarProps> = ({ currentPage = 'home' }) => {
       <div className="container">
         <div className="navbar-content">
           <Link to="/" className="navbar-logo">
-            <h2 style={{ color: 'var(--primary-color)', margin: 0 }}>
-              Qyra <span style={{ color: 'var(--accent-color)' }}>Institute</span>
-            </h2>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
+              <div style={{
+                width: '40px',
+                height: '40px',
+                backgroundColor: 'var(--primary-color)',
+                borderRadius: '8px',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                color: 'white',
+                fontWeight: '700',
+                fontSize: '1.2rem'
+              }}>
+                QI
+              </div>
+              <h2 style={{ color: 'var(--primary-color)', margin: 0, fontSize: '1.5rem' }}>
+                Qyra <span style={{ color: 'var(--accent-color)' }}>Institute</span>
+              </h2>
+            </div>
           </Link>
 
           <div className={`navbar-menu ${mobileMenuOpen ? 'active' : ''}`}>

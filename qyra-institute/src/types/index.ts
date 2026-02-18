@@ -24,7 +24,7 @@ export interface Student {
   name: string;
   email: string;
   phone?: string;
-  enrolledCourses: string[];
+  enrolledPrograms: string[];
   status: 'trial' | 'active' | 'completed';
   createdAt: any;
   lastActive?: any;
