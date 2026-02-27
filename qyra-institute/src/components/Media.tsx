@@ -40,7 +40,7 @@ const Media: React.FC = () => {
     },
     {
       id: 3,
-      title: 'Digital Marketing Course Preview',
+      title: 'Digital Marketing Preview',
       thumbnail: '💻',
       duration: '4:15',
       description: 'Get a glimpse of our professional skills training'

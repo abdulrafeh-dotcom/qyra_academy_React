@@ -46,6 +46,7 @@ const Footer: React.FC = () => {
   const quickLinks = [
     { name: 'Home', url: '/' },
     { name: 'About Us', url: '/about' },
+    { name: 'Courses', url: '/courses' },
     { name: 'Media', url: '/media' },
     { name: 'Dashboard', url: '/dashboard' }
   ];

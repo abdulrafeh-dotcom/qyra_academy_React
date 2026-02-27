@@ -4,6 +4,7 @@ import { AnimatePresence } from 'framer-motion';
 import { AuthProvider } from './contexts/AuthContext';
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
+import CoursesPage from './pages/CoursesPage';
 import MediaPage from './pages/MediaPage';
 import AdminLogin from './pages/AdminLogin';
 import AdminDashboard from './pages/AdminDashboard';
@@ -26,6 +27,7 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/home" element={<HomePage />} />
           <Route path="/about" element={<AboutPage />} />
+          <Route path="/courses" element={<CoursesPage />} />
           <Route path="/media" element={<MediaPage />} />
           
           {/* Admin Routes */}

@@ -55,9 +55,8 @@ const Hero: React.FC = () => {
               animate={{ opacity: 0.95, y: 0 }}
               transition={{ duration: 0.8, delay: 0.5 }}
             >
-              Qyra Institute offers personalized, one-to-one online classes for every course. 
-              From Quran education to academic subjects and professional skills like Digital Marketing, 
-              Graphic Design, and Video Editing. Our expert instructors guide you step by step, 
+              Qyra Institute offers personalized, one-to-one online classes for Islamic education and modern skills. 
+              Our expert instructors guide you step by step, 
               helping you master your goals faster while balancing faith, knowledge, and practical skills. 
               Start your free trial today and experience learning designed just for you.
             </motion.p>
@@ -137,7 +136,7 @@ const Hero: React.FC = () => {
                     transition={{ type: "spring", stiffness: 300 }}
                   >
                     <select className="form-control" required>
-                      <option value="">Select Course Interest</option>
+                      <option value="">Select Interest</option>
                       <option value="quran">Quran & Islamic Education</option>
                       <option value="academic">Academic Subjects</option>
                       <option value="professional">Professional Skills</option>

@@ -1,203 +1,144 @@
 import React from 'react';
 import '../styles/Global.css';
+import atifImage from '../assets/atif-riaz.jpg';
+import amnaImage from '../assets/amna-idrees.jpg';
+import abdulImage from '../assets/abdul-rafeh.jpg';
 
 const About: React.FC = () => {
   return (
-    <section className="section about-section">
-      <div className="container">
-        <div className="about-content">
-          <div className="about-header text-center scroll-animate">
-            <h2 style={{ color: 'var(--primary-color)', marginBottom: '1rem' }}>
-              Qyra Institute – Learn with Purpose. Grow with Knowledge.
-            </h2>
-            <div style={{ 
-              width: '80px', 
-              height: '4px', 
-              backgroundColor: 'var(--accent-color)', 
-              margin: '0 auto 2rem',
-              borderRadius: '2px'
-            }}></div>
-          </div>
-
-          <div className="about-description scroll-animate">
-            <p style={{ 
-              fontSize: '1.2rem', 
-              lineHeight: '1.8', 
-              color: 'var(--text-dark)',
-              textAlign: 'center',
-              maxWidth: '800px',
-              margin: '0 auto 3rem'
-            }}>
-              Qyra Institute is an online learning platform dedicated to quality Quran education 
-              alongside essential modern skills. We combine authentic Islamic teachings with academic 
-              and professional development to prepare learners for both Dunya and Akhirah.
+    <>
+      {/* Hero Section */}
+      <section className="about-hero">
+        <div className="container">
+          <div className="hero-content text-center scroll-animate">
+            <h1 className="hero-title">About Us</h1>
+            <p className="hero-subtitle">Welcome to Qyra Institute</p>
+            <p className="hero-description">
+              At Qyra Institute, we believe education is most powerful when it nurtures both Deen and Duniya. 
+              Our goal is to provide authentic Islamic education while equipping students with modern skills, 
+              shaping confident, disciplined, and value-driven learners.
             </p>
           </div>
+        </div>
+      </section>
 
-          <div className="grid grid-3 about-grid">
-            <div className="about-card scroll-animate">
-              <div className="about-icon">
-                <div style={{ 
-                  fontSize: '3rem', 
-                  color: 'var(--primary-color)', 
-                  marginBottom: '1rem',
-                  textAlign: 'center'
-                }}>🎯</div>
-              </div>
-              <h3 style={{ color: 'var(--primary-color)', textAlign: 'center', marginBottom: '1rem' }}>
-                Our Mission
-              </h3>
-              <p style={{ textAlign: 'center', lineHeight: '1.6' }}>
-                To provide accessible, affordable, and high-quality online education that builds 
-                strong faith, sharp minds, and practical skills for the modern world.
-              </p>
-            </div>
-
-            <div className="about-card scroll-animate">
-              <div className="about-icon">
-                <div style={{ 
-                  fontSize: '3rem', 
-                  color: 'var(--primary-color)', 
-                  marginBottom: '1rem',
-                  textAlign: 'center'
-                }}>🤝</div>
-              </div>
-              <h3 style={{ color: 'var(--primary-color)', textAlign: 'center', marginBottom: '1rem' }}>
-                Our Commitment
-              </h3>
-              <p style={{ textAlign: 'center', lineHeight: '1.6' }}>
-                At Qyra Institute, we are committed to honesty, excellence, and continuous improvement. 
-                We aim to build long-term trust with students and parents through quality education 
-                and transparent practices.
-              </p>
-            </div>
-
-            <div className="about-card scroll-animate">
-              <div className="about-icon">
-                <div style={{ 
-                  fontSize: '3rem', 
-                  color: 'var(--primary-color)', 
-                  marginBottom: '1rem',
-                  textAlign: 'center'
-                }}>🌟</div>
-              </div>
-              <h3 style={{ color: 'var(--primary-color)', textAlign: 'center', marginBottom: '1rem' }}>
-                Our Vision
-              </h3>
-              <p style={{ textAlign: 'center', lineHeight: '1.6' }}>
-                To become a leading online academy that seamlessly integrates Islamic education with 
-                modern skills, creating well-rounded individuals who excel in both spiritual and worldly endeavors.
-              </p>
-            </div>
+      {/* Our Vision Section */}
+      <section className="vision-section">
+        <div className="container">
+          <div className="vision-content scroll-animate">
+            <h2 className="section-title">Our Vision</h2>
+            <p className="vision-text">
+              To raise a generation of learners who are spiritually grounded, morally upright, and fully 
+              prepared to thrive in today's fast-changing world.
+            </p>
           </div>
+        </div>
+      </section>
 
-          <div className="why-choose-section" style={{ marginTop: '4rem' }}>
-            <h3 className="section-title scroll-animate">Why Choose Us?</h3>
-            <div className="grid grid-2 why-choose-grid">
-              <div className="why-choose-item scroll-animate">
-                <div className="why-choose-content">
-                  <div style={{ 
-                    display: 'flex', 
-                    alignItems: 'center', 
-                    marginBottom: '1rem'
-                  }}>
-                    <div style={{ 
-                      fontSize: '2rem', 
-                      color: 'var(--accent-color)', 
-                      marginRight: '1rem',
-                      minWidth: '40px'
-                    }}>✓</div>
-                    <h4 style={{ color: 'var(--primary-color)', margin: 0 }}>
-                      Qualified and experienced instructors
-                    </h4>
-                  </div>
-                </div>
-              </div>
+      {/* Our Mission Section */}
+      <section className="mission-section">
+        <div className="container">
+          <div className="mission-content scroll-animate">
+            <h2 className="section-title">Our Mission</h2>
+            <p className="mission-text">
+              At Qyra Institute, our mission is to provide authentic Islamic education while equipping 
+              students with modern skills. We nurture strong character, confidence, and faith, helping 
+              learners apply Islamic values in daily life and succeed in the modern world.
+            </p>
+          </div>
+        </div>
+      </section>
 
-              <div className="why-choose-item scroll-animate">
-                <div className="why-choose-content">
-                  <div style={{ 
-                    display: 'flex', 
-                    alignItems: 'center', 
-                    marginBottom: '1rem'
-                  }}>
-                    <div style={{ 
-                      fontSize: '2rem', 
-                      color: 'var(--accent-color)', 
-                      marginRight: '1rem',
-                      minWidth: '40px'
-                    }}>✓</div>
-                    <h4 style={{ color: 'var(--primary-color)', margin: 0 }}>
-                      Quran-focused learning with proper Tajweed
-                    </h4>
-                  </div>
-                </div>
+      {/* Our Leadership Section */}
+      <section className="leadership-section">
+        <div className="container">
+          <div className="leadership-header scroll-animate">
+            <h2 className="section-title">Our Leadership</h2>
+          </div>
+          <div className="leadership-grid grid grid-3">
+            <div className="leadership-card scroll-animate">
+              <div className="leader-image">
+                <img 
+                  src={atifImage} 
+                  alt="Atif Riaz Shahid" 
+                  className="leader-photo"
+                  onError={(e) => {
+                    e.currentTarget.style.display = 'none';
+                    e.currentTarget.nextElementSibling?.classList.remove('hidden');
+                  }}
+                />
+                <div className="leader-avatar hidden">ARS</div>
               </div>
+              <h3 className="leader-name">Atif Riaz Shahid</h3>
+              <p className="leader-title">Chairman & CEO</p>
+              <p className="leader-description">
+                Brings over 12 years of experience in education, communication, and digital media, 
+                guiding the institute's strategy and operations.
+              </p>
+            </div>
 
-              <div className="why-choose-item scroll-animate">
-                <div className="why-choose-content">
-                  <div style={{ 
-                    display: 'flex', 
-                    alignItems: 'center', 
-                    marginBottom: '1rem'
-                  }}>
-                    <div style={{ 
-                      fontSize: '2rem', 
-                      color: 'var(--accent-color)', 
-                      marginRight: '1rem',
-                      minWidth: '40px'
-                    }}>✓</div>
-                    <h4 style={{ color: 'var(--primary-color)', margin: 0 }}>
-                      Academic and skill-based programs under one platform
-                    </h4>
-                  </div>
-                </div>
+            <div className="leadership-card scroll-animate">
+              <div className="leader-image">
+                <img 
+                  src={amnaImage} 
+                  alt="Amna Idrees" 
+                  className="leader-photo"
+                  onError={(e) => {
+                    e.currentTarget.style.display = 'none';
+                    e.currentTarget.nextElementSibling?.classList.remove('hidden');
+                  }}
+                />
+                <div className="leader-avatar hidden">AI</div>
               </div>
+              <h3 className="leader-name">Amna Idrees</h3>
+              <p className="leader-title">Co-Founder & Academic Director</p>
+              <p className="leader-description">
+                Holds a Master's in Islamic Studies, a Master's in Arabic, and has completed 8 years 
+                of Dars-e-Nizami. An expert in Qur'an, Tajweed, and Tafseer, she oversees academic 
+                curriculum and teacher training.
+              </p>
+            </div>
 
-              <div className="why-choose-item scroll-animate">
-                <div className="why-choose-content">
-                  <div style={{ 
-                    display: 'flex', 
-                    alignItems: 'center', 
-                    marginBottom: '1rem'
-                  }}>
-                    <div style={{ 
-                      fontSize: '2rem', 
-                      color: 'var(--accent-color)', 
-                      marginRight: '1rem',
-                      minWidth: '40px'
-                    }}>✓</div>
-                    <h4 style={{ color: 'var(--primary-color)', margin: 0 }}>
-                      Flexible online classes for all time zones
-                    </h4>
-                  </div>
-                </div>
+            <div className="leadership-card scroll-animate">
+              <div className="leader-image">
+                <img 
+                  src={abdulImage} 
+                  alt="Abdul Rafeh" 
+                  className="leader-photo"
+                  onError={(e) => {
+                    e.currentTarget.style.display = 'none';
+                    e.currentTarget.nextElementSibling?.classList.remove('hidden');
+                  }}
+                />
+                <div className="leader-avatar hidden">AR</div>
               </div>
-
-              <div className="why-choose-item scroll-animate">
-                <div className="why-choose-content">
-                  <div style={{ 
-                    display: 'flex', 
-                    alignItems: 'center', 
-                    marginBottom: '1rem'
-                  }}>
-                    <div style={{ 
-                      fontSize: '2rem', 
-                      color: 'var(--accent-color)', 
-                      marginRight: '1rem',
-                      minWidth: '40px'
-                    }}>✓</div>
-                    <h4 style={{ color: 'var(--primary-color)', margin: 0 }}>
-                      Honest, student-centered learning environment
-                    </h4>
-                  </div>
-                </div>
-              </div>
+              <h3 className="leader-name">Abdul Rafeh</h3>
+              <p className="leader-title">Software Engineer (IT Head)</p>
+              <p className="leader-description">
+                Leads the digital operations at Qyra Institute, managing the website and technical 
+                systems. With expertise in modern web technologies, he ensures smooth performance, 
+                security, and an enhanced online learning experience.
+              </p>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+
+      {/* Why Choose Qyra Institute Section */}
+      <section className="why-choose-section">
+        <div className="container">
+          <div className="why-choose-content scroll-animate">
+            <h2 className="section-title">Why Choose Qyra Institute</h2>
+            <p className="why-choose-description">
+              Qyra Institute combines expert Islamic teaching with modern, engaging methods. Our qualified 
+              tutors guide students in Qur'an, Tajweed, and Tafseer, providing personalized attention and 
+              holistic development. We focus on spiritual growth, moral values, and practical skills, 
+              creating learners who thrive in both Deen and Duniya.
+            </p>
+          </div>
+        </div>
+      </section>
+    </>
   );
 };
 

@@ -22,6 +22,7 @@ const Navbar: React.FC<NavbarProps> = ({ currentPage = 'home' }) => {
   const navLinks = [
     { name: 'Home', path: '/' },
     { name: 'About', path: '/about' },
+    { name: 'Courses', path: '/courses' },
     { name: 'Media', path: '/media' }
   ];
 
